@@ -7,9 +7,10 @@ using namespace std;
 
 int main()
 {
-	AuClient * client = new AuClient();
+	AuClient * client = new AuClient( "http://127.0.0.1:4000", "res" );
 	cout << "AuClient initialized." << endl;
-	delete client;
+
+	client->Start();
 
 	system( "PAUSE" );
 	return 0;

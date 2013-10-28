@@ -1,0 +1,15 @@
+{
+	"name": "auto-updater",
+	"version": "0.0.1",
+	"description": "A node.js server for an auto update service.",
+	"author":
+	{
+		"name": "Fitbos",
+		"email": "lcdcdr2004@gmail.com",
+		"url": "http://github.com/CDR2003"
+	},
+	"dependencies":
+	{
+		"express": ">=3.4.2"
+	}
+}
